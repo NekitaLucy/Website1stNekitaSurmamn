@@ -20,16 +20,21 @@
 <body>
     <header>
         <div class="container">
-            <img src="logo.svg" alt="logo" class="logo">
+            <div class="navtoggle" id="myNavtoggle">
+                <img src="logo.svg" alt="logo" class="logo">
 
-            <!-- For the navigation-->
-            <nav>
-                <ul class="nav">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact"> Contact</a></li>
-                </ul>
-            </nav>
+                <!-- For the navigation-->
+                <nav>
+                    <ul class="nav">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact"> Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                    class="fas fa-bars"></i></a></li>
+                    </ul>
+
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -120,6 +125,9 @@
         <p>Copyright Nekita Surman 2020</p>
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4bf344f202.js" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 
 </body>
