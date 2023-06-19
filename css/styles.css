@@ -95,6 +95,7 @@ div {
         border-radius: 1px;
         border-bottom: 2.5px solid #5d0a5c;
         transition: 0.2s opacity;
+        margin-top: auto;
     }
 
     .button {
@@ -180,17 +181,24 @@ div {
 
 }
 
+#contact {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
-.button.contact {
+.button-contact {
     background-color: rgb(163, 163, 224);
     color: #ffffff;
     text-transform: uppercase;
     border: 2px solid #fffdfa;
     padding: 10px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 
 }
 
-.button.contact:hover {
+.button-contact:hover {
     background-color: transparent;
     color: #f9faf5;
 }
@@ -247,6 +255,7 @@ h2 {
     font-size: 27px;
     font-style: SemiBold;
     font-weight: 700;
+    padding: 20px;
 }
 
 h3 {
@@ -435,7 +444,6 @@ img {
    * 2. Remove the margin in Firefox and Safari.
    */
 
-button,
 input,
 optgroup,
 select,
@@ -653,12 +661,17 @@ template {
 
 .behance {
     max-width: 30px;
-    padding: 15px
+    padding: 15px;
+    margin-top: 20px;
+
+    padding-left: 10px;
 }
 
 .linkedin {
     max-width: 30px;
-    padding: 15px
+    padding: 15px;
+    margin-top: 20px;
+    padding-left: 10px;
 }
 
 .logo {
@@ -730,6 +743,7 @@ nav>ul>li>a {
 .container {
     padding: 0 15px;
     margin: 0px;
+
 }
 
 .row {
