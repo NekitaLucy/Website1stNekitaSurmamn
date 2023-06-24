@@ -1,7 +1,6 @@
 
 
-console.log("Bonjour, Hello. Welcome to my UI Website Portfolio!")
-alert("Bonjour, Hello. Welcome to my UI Website Portfolio!");
+// alert ("Bonjour, Hello. Welcome to my UI Website Portfolio!");
 
 
 function menuToggle() {
